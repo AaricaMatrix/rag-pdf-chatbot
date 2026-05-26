@@ -1,0 +1,29 @@
+# requirements.txt — all Python dependencies for rag-pdf-chatbot
+# Install with: pip install -r requirements.txt
+
+# LangChain core — the orchestration framework that chains LLM + retriever
+langchain==0.2.16
+
+# LangChain community integrations — PyPDFLoader, FAISS, HuggingFace wrappers
+langchain-community==0.2.16
+
+# FAISS CPU build — vector similarity search, runs without GPU
+faiss-cpu==1.8.0
+
+# Sentence Transformers — provides all-MiniLM-L6-v2 embedding model
+sentence-transformers==3.0.1
+
+# HuggingFace Transformers — loads Flan-T5 and other local LLMs
+transformers==4.44.0
+
+# PyTorch CPU — required by transformers and sentence-transformers
+torch==2.4.0
+
+# Gradio — builds the web UI, also used for HuggingFace Spaces deployment
+gradio==4.42.0
+
+# PyPDF — reads and extracts text from PDF files (used by PyPDFLoader)
+pypdf==4.3.1
+
+# HuggingFace Hub — downloads models from HuggingFace model hub
+huggingface-hub==0.24.5
