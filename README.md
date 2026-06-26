@@ -213,13 +213,6 @@ rag-pdf-chatbot/
 
 ---
 
-## 👩‍💻 Author
-
-**Aarica Raj** — AI/ML Developer | BCA Student | Google Student Ambassador
-🔗 [GitHub](https://github.com/Aaricacoding) · [LinkedIn](https://linkedin.com/in/aarica-raj)
-
----
-
 ## 📄 License
 
 MIT License — free to use, modify, and distribute.
